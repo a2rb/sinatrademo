@@ -4,5 +4,9 @@ require 'bundler'
 Bundler.require
 
 require './sinatrademo'
-run SinatraDemo
+app = SinatraDemo
+
+#app =  lambda { |_| [200, { "Content-Type" => "text/plain" }, [ "Hello a2rb!", "yay!" ]] }
+
+run app
 
