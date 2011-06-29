@@ -1,0 +1,5 @@
+1. Install Ruby somehow
+2. cd sinatrademo
+3. bundle install
+4. bundle exec rackup
+5. go to http://localhost:9292
